@@ -11,14 +11,14 @@ Javascript is the key to unlock programming! Do not miss the basics.
   - String /Character 
  -  Boolean
   - Undefined
-  - NAN
+  - Null
   - Symbol
   - BigInt
   - Float
  
 
 
-## 2.Primitive Data Structure
+## 2.Non Primitive Data Structure
 
  ## Linear Data Structure
     Array
@@ -30,7 +30,7 @@ Javascript is the key to unlock programming! Do not miss the basics.
     Tree
     Hash Table
     Graph
-    Trie
+
 
 ## Operators 
 
@@ -74,6 +74,6 @@ a =2 ;
 b = 3;
 c = a + b;
 d = a * b;
-e = (a + b) * (c / d);
+e = (a + b) * (c / d); 
 
  
