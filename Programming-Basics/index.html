@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of JavaScript</title>
+   <link rel="style" src="style.css"/>
+<link rel="icon" type="image/x-icon" href="icon/js-icon.png">
+<script src="js/script.js"></script>
+
+</head>
+<body>
+   <h3>Calculator</h3>
+<div class="container">
+<label>Inter value</label>
+<input   type="number" id="myNumber" value="0"/><br/>
+<div class="btn-wrapper">
+</div>
+<button id="btn-add">Add</button><br/>
+<button id="btn-subtract">subtract</button><br/>
+<button id="btn-divide">Divide</button><br/>
+<button id="btn-multple">Multiple</button><br/>
+</div> 
+
+<!-- You Can create your own js file or you can also write your js logic in script tag -->
+<script> 
+let myNumber = document.getElementById('myNumber');
+ let add = document.getElementById("btn-add");
+
+add.addEventListener('click', ()=>
+{
+let currentVal = Number(myNumber.value) || 0;
+myNumber.value = currentVal + 1;
+console.log("Current Value", currentVal);
+
+});
+
+</script>
+
+</body>
+
+</html>

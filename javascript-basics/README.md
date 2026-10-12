@@ -76,4 +76,18 @@ c = a + b;
 d = a * b;
 e = (a + b) * (c / d); 
 
- 
+ ##   Key Points:
+ 1.copy by reference and copy by 
+ 2.Mutation in the case of Primitive & None Primitive
+ 3.what is programming language
+ 4. Low level and High level Programming language
+ 5. Compiler & interpreter 
+ 6. Syntax and semantics error
+ 7. var, let , const key words to declare variables
+ 8. Data Structures
+ 9. Primitive & non primitive
+ 10. Arithmetic operators (% + - * /, **, ++. -- )
+ 11. Comparison Operators (==, ===, !=, !==, >,< >=, <=)
+ 12. Logical Operators (&&, ||, !)
+ 13. weak type language
+ 14. Array Manipulation 

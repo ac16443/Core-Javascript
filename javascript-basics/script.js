@@ -114,3 +114,7 @@ let aa = 5;
 let bb = 5;
 console.log(aa == bb);  //True
 console.log(aa === bb); // True
+
+console.error("This is Warning!");
+console.info("I am learning JS");
+console.warn("Be Careful");
