@@ -1,4 +1,114 @@
 //alert("Your JavaScript file is connected!")
+//Question 1. Console output should be True or False
+console.log(`  24  is greater than 3: " ${ 24 > 3}` ); // True
+console.log("2 less than String type 12", 2< '12'); //True
+console.log("0 is equal to 2", 0 == 2);// False
+console.log("2.0 is strictly equal to 2", 2.0 === 2); // True
+console.log("2.0 is strictly equal to 2 (by type & value)", 2.0 === 2); // True
+console.log("2 equal to string  2 (by value)", 2 == '2'); //True
+console.log("2 less than string John", 2 < "John");// False
+console.log("2 greater than string John", 2 > "John"); //False
+console.log("string 2 less than string 2", "2" < "2");//False
+console.log("string 2 greater than string 12", "2" > "12");// True
+console.log("Logical operator OR T F F", 1===1 || 3 === 2 || 3 == 7);// True
+console.log("Logical operator And  T T F", 1 === 1 && 2 == 2 && 3 == 7);// False
+    //  priority when there is mixed logical operators (), !, &&, ||
+console.log(`Mixed Logical operator T VS T n F (1 == 1 || (2 == 2 && 3 == 7) ) ${1 == 1 || 2 == 2 && 3 == 7 }`);// True
+console.log(`Mixed Logical operator F n F VS T or T or T or T  ${1 == true && 0 > true || '31' > '9' || 10 > 5 || !('2' == 'two' || 1 == '1')}`);// True
+
+//Question 2
+// 1. which expression returns true? Answer is D
+   console.log("(A)", '1' === 1) //F Logic check both value & Type
+   console.log("(B)", 1 == 1);// T
+   console.log("(C)", 1 == 1);// T
+   console.log("D and C from above");
+
+//2. What is the value of x in this statement? Answer is B
+// A/ 10, B/ true,  C/ false, D/ undefined
+
+let x = (1 == true);
+console.log(x);
+
+//3. What is the value of y from the following statements? Answer True;
+    // A/ 1, B/ true,  C/ 15, D/ true
+let x1 = 10;
+let y1 = (x1 > 5) && (x1 < 15) // x1 greater than 5 (10 >5 ) = True && True (10 Less than )
+console.log((x1 > 5) && (x1 < 15));
+
+//4. What is the value of x from the following statements? B
+      // A/ 3, B/ 8, C/ 15, D/ 5
+let xy = 5;
+xy += 3;
+console.log(xy);
+
+//5. What is the value of y from the following statements? A
+     //  A/ 10, B/ 11, C/ 12, D/ 13
+let xx = 10;
+ let yy = xx++; //(xx + 1)
+ console.log(yy); // yy =10  then after xx will be 11 
+let yyy = ++xx  // (1 + xx)
+console.log(yyy);
+
+
+//6. What is the value of y in the following statements? D
+      // A/ 1, B/ 2, C/ false, D/ true
+let x3 = 1;
+let y3 = (x3 !== 2);
+console.log(x3);
+console.log(y3);
+
+//7. What is the output of (+”2”+2)? //4
+console.log(+'2'+2); //+ '2' convert the string 2+2=4
+
+//8. What is the output of (7 % 3)? 1
+console.log(7%3); // 
+
+//9. What is the output of (2+true)? 3
+console.log(2 + true); // true=1 , 2+1=3
+
+
+//Question 3
+/* ● Write a simple script that adds 1 and 2 and displays the result on the console
+   ● Use variables a, b & c
+   ● Use "let" to declare the variables
+   ● Use the formula c = a + b
+   ● Display the value of c on console */
+
+let aa = 1;
+let bb = 2;
+let c = aa + bb;
+console.log(`aa + bb = ${c}`);
+
+// Question 4:
+/* ● Create a variable to hold your first name
+   ● Create another variable to hold your last name
+   ● Create a third variable to hold your full name
+   ● Assign the value of your first name and last name to the first two variable
+   ● Use "+" to concatenate your first name and last name to assign the result to your last name's
+variable
+  ● Don't forget to include space between your first and last name
+  ● Display the value of your full name on the console */
+
+
+let firstName = "Amelework";
+let lastName = "Getnet";
+
+let fullName = `Full Name: ${firstName} ${lastName}`;
+console.log(fullName);
+let fullName2 = firstName + " " + lastName;
+console.log(fullName2);
+
+
+
+
+
+
+
+
+
+
+
+
 let a =2;
 console.log(typeof a);
 console.log(5 + '6'); 
@@ -50,7 +160,7 @@ console.log(array2);
 //& 14.Array
 
 
-let x = 1;
-let y = (x!==2);
-console.log(x); 
+let z = 1;
+let y = (z!==2);
+console.log(z); 
 console.log(y); 

@@ -1,8 +1,30 @@
 .container
 {
    width: 40%;
-    background-color: rgb(61, 17, 17);
+background-color: rgb(61, 17, 17);
+justify-content: center;
+margin: 0 auto;
+align-items: center;
+border: 1px solid black;
+color: orange;
+}
+input
+{
+   color: rgb(48, 7, 56);  
+ 
+background-color: rgb(245, 209, 184); 
+margin: 10px;
+}
+
+button
+{
+color: rgb(237, 241, 241);
+width: 30%;
+background-color: saddlebrown;
 justify-content: center;
 align-items: center;
-bor
+margin: 0 auto;
+display: block;
+padding: 10px;
+margin: 5;
 }
