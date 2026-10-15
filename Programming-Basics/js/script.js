@@ -1,6 +1,6 @@
 //alert("Your JavaScript file is connected!")
 //Question 1. Console output should be True or False
-console.log(`  24  is greater than 3: " ${ 24 > 3}` ); // True
+console.log(`24 greater than 3: " ${ 24 > 3}` ); // True
 console.log("2 less than String type 12", 2< '12'); //True
 console.log("0 is equal to 2", 0 == 2);// False
 console.log("2.0 is strictly equal to 2", 2.0 === 2); // True
@@ -9,13 +9,27 @@ console.log("2 equal to string  2 (by value)", 2 == '2'); //True
 console.log("2 less than string John", 2 < "John");// False
 console.log("2 greater than string John", 2 > "John"); //False
 console.log("string 2 less than string 2", "2" < "2");//False
-console.log("string 2 greater than string 12", "2" > "12");// True
+console.log("string 2 greater than string 12", "2" > "12");// True // checks character by character 
 console.log("Logical operator OR T F F", 1===1 || 3 === 2 || 3 == 7);// True
 console.log("Logical operator And  T T F", 1 === 1 && 2 == 2 && 3 == 7);// False
-    //  priority when there is mixed logical operators (), !, &&, ||
+    // Precedence  priority when there is mixed logical operators (), !, &&, ||
 console.log(`Mixed Logical operator T VS T n F (1 == 1 || (2 == 2 && 3 == 7) ) ${1 == 1 || 2 == 2 && 3 == 7 }`);// True
 console.log(`Mixed Logical operator F n F VS T or T or T or T  ${1 == true && 0 > true || '31' > '9' || 10 > 5 || !('2' == 'two' || 1 == '1')}`);// True
-
+// false || false || true || false
+console.log(1 == Boolean('true'));
+console.log(1 == Boolean('false'));
+console.log(1 == Boolean('1'));
+console.log(1 == Boolean(1));
+console.log(1 == Boolean(0));
+var flexible=10;
+let flexible2 =12;
+const flexible3 =15;
+flexible =13 //var variable can be re-declare, reassign
+console.log("var", flexible);
+flexible2 = 14 //can not re declare, can re assign 
+console.log("let", flexible2);
+//flexible3 = 16; //can not re-assign or re-declar
+console.log("Const", flexible3);
 //Question 2
 // 1. which expression returns true? Answer is D
    console.log("(A)", '1' === 1) //F Logic check both value & Type
@@ -164,3 +178,4 @@ let z = 1;
 let y = (z!==2);
 console.log(z); 
 console.log(y); 
+
