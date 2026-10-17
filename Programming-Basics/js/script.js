@@ -53,15 +53,21 @@ console.log((x1 > 5) && (x1 < 15));
       // A/ 3, B/ 8, C/ 15, D/ 5
 let xy = 5;
 xy += 3;
+//xy = xy + 3;
 console.log(xy);
+console.log(5 + "5"); //
 
 //5. What is the value of y from the following statements? A
      //  A/ 10, B/ 11, C/ 12, D/ 13
 let xx = 10;
- let yy = xx++; //(xx + 1)
- console.log(yy); // yy =10  then after xx will be 11 
+let yy = xx++; //(xx + 1) post increment should update the value after one operation 
+console.log(yy); // yy =10  then after xx will be 11 
 let yyy = ++xx  // (1 + xx)
 console.log(yyy);
+//console.log(++xx == xx++);//t // xx=0 
+//console.log(xx++ == xx++);//f //xx= 0
+console.log(xx++ + xx + ++xx ); //xx=10; y= xx++ + xx + ++xx ) (10 + 11+ 12)
+
 
 
 //6. What is the value of y in the following statements? D
@@ -72,13 +78,25 @@ console.log(x3);
 console.log(y3);
 
 //7. What is the output of (+”2”+2)? //4
+//Unary plus unary operator
 console.log(+'2'+2); //+ '2' convert the string 2+2=4
+console.log(-'2'+2); //+ '2' convert the string 2+2=4
+console.log(2 + +'2'); //+ '2' Unary plus the string 2+2=4
+console.log( 2 - '2'); //+ '2' Unary plus the string 2+2=4
 
 //8. What is the output of (7 % 3)? 1
 console.log(7%3); // 
+console.log(3%7); // 
+console.log(7 % 10); // 7/10= 7
+console.log(0 % 10); // 0
+console.log(0 % 0); // NaN
+console.log(7 % 0); // NaN
 
 //9. What is the output of (2+true)? 3
 console.log(2 + true); // true=1 , 2+1=3
+console.log(2 + false); // true=1 , 2+0=2
+console.log(2 - "Amele"); //2 -Amele(NaN)=  NaN Nan
+console.log(2 + Boolean); //2 -func(NaN)=  Nan
 
 
 //Question 3
